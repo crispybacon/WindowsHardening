@@ -23,7 +23,7 @@ The script uses a configuration section to customize certain settings:
 ```powershell
 $config = @{
     AccountNames = @{
-        AdminAccountName = "Joker"
+        AdminAccountName = "executive"
         GuestAccountName = "No_Guest"
     }
     BitLocker = @{
@@ -44,8 +44,8 @@ $config = @{
         MinPasswordLength = 14
     }
     LegalNotice = {
-        Caption = "DoD Notice and Consent Banner"
-        Text = "You are accessing a U.S. Government information system..."
+        Caption = "This is an official corporate system belonging to a commercial entity (Flatstone Services, L.L.C.)."
+        Text = "This system may contain PII, intellectual property or material that is sensitive to an indivudal, a business or the United States federal government.  Damages to this system or the property of this system or the operator of this system may be assessed financially to multiple parties.  Within the appropriate rules of engagement, GO's and NGO's may take protective actions on behalf of this system."
     }
     InactivityTimeout = 900
 }
