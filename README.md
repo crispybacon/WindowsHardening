@@ -1,5 +1,7 @@
 # Windows 11 STIG Hardening - MAC3 Public Profile
 
+![alt text](images/RobotArmor.png "Robotic Securoty Agents")
+
 ## Overview
 
 This documentation covers the Windows 11 STIG Hardening script (`Windows11_StandAlone_MAC3_Public_Profile.ps1`) that implements security controls based on the Windows 11 Security Technical Implementation Guide (STIG). The script addresses CAT1 (Critical), CAT2 (High), and CAT3 (Medium) findings to achieve compliance with the MAC 3 - Public profile requirements.
@@ -168,3 +170,8 @@ After applying the hardening script, you can verify compliance using the SCAP Co
 - Some settings may affect system functionality; test in a non-production environment first
 - For DoD certificate installation, ensure you have the correct certificate files from authorized sources
 - The Secure Boot requirement must be configured in the system BIOS/UEFI
+
+## Contributors
+Jesse Bacon  
+Amazon Q  
+Microsoft Copilot  
