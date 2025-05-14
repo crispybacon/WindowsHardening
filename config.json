@@ -1,6 +1,6 @@
 {
     "AccountNames": {
-        "AdminAccountName": "Joker",
+        "AdminAccountName": "executive",
         "GuestAccountName": "No_Guest"
     },
     "BitLocker": {
@@ -22,8 +22,8 @@
         "MinPasswordLength": 14
     },
     "LegalNotice": {
-        "Caption": "DoD Notice and Consent Banner",
-        "Text": "You are accessing a U.S. Government information system, which includes: (1) this computer, (2) this computer network, (3) all computers connected to this network, and (4) all devices and storage media attached to this network or to a computer on this network. This information system is provided for U.S. Government-authorized use only. Unauthorized or improper use of this system may result in disciplinary action, as well as civil and criminal penalties. By using this information system, you understand and consent to the following: You have no reasonable expectation of privacy regarding any communication or data transiting or stored on this information system. At any time, and for any lawful government purpose, the government may monitor, intercept, and search and seize any communication or data transiting or stored on this information system. Any communication or data transiting or stored on this information system may be disclosed or used for any lawful government purpose."
+        "Caption": "This is an official corporate system belonging to a commercial entity.",
+        "Text": "This system may contain PII, intellectual property or material that is sensitive to an indivudal, a business or the United States federal government.  Damages to this system  or the property of this system or the operator of this system may be assessed financially to multiple parties."
     },
     "InactivityTimeout": 900
 }
