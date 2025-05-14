@@ -1,0 +1,29 @@
+{
+    "AccountNames": {
+        "AdminAccountName": "Joker",
+        "GuestAccountName": "No_Guest"
+    },
+    "BitLocker": {
+        "MinimumPINLength": 6,
+        "RequireStartupPIN": true
+    },
+    "EventLogs": {
+        "ApplicationLogSize": 32768,
+        "SecurityLogSize": 1024000,
+        "SystemLogSize": 32768
+    },
+    "AccountPolicies": {
+        "LockoutDuration": 15,
+        "LockoutThreshold": 3,
+        "LockoutWindow": 15,
+        "UniquePasswordHistory": 24,
+        "MaxPasswordAge": 60,
+        "MinPasswordAge": 1,
+        "MinPasswordLength": 14
+    },
+    "LegalNotice": {
+        "Caption": "DoD Notice and Consent Banner",
+        "Text": "You are accessing a U.S. Government information system, which includes: (1) this computer, (2) this computer network, (3) all computers connected to this network, and (4) all devices and storage media attached to this network or to a computer on this network. This information system is provided for U.S. Government-authorized use only. Unauthorized or improper use of this system may result in disciplinary action, as well as civil and criminal penalties. By using this information system, you understand and consent to the following: You have no reasonable expectation of privacy regarding any communication or data transiting or stored on this information system. At any time, and for any lawful government purpose, the government may monitor, intercept, and search and seize any communication or data transiting or stored on this information system. Any communication or data transiting or stored on this information system may be disclosed or used for any lawful government purpose."
+    },
+    "InactivityTimeout": 900
+}
