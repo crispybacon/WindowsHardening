@@ -23,7 +23,7 @@
     },
     "LegalNotice": {
         "Caption": "This is an official corporate system belonging to a commercial entity.",
-        "Text": "This system may contain PII, intellectual property or material that is sensitive to an indivudal, a business or the United States federal government.  Damages to this system  or the property of this system or the operator of this system may be assessed financially to multiple parties."
+        "Text": "This system may contain PII, intellectual property or material that is sensitive to an indivudal, a business or the United States federal government.  Damages to this system or the property of this system or the operator of this system may be assessed financially to multiple parties.  Within the appropriate rules of engagement, GO's and NGO's may take protective actions on behalf of this system."
     },
     "InactivityTimeout": 900
 }
