@@ -8,16 +8,6 @@ This documentation covers the Windows 11 STIG Hardening script (`Windows11_Stand
 
 The hardening script works towards compliance with the MAC 3 - Public profile based on current findings from the SCAP Compliance Checker (SCC) 5.10.2. These checks apply to Windows 11 Professional builds that are not connected to an Active Directory domain. The aim is to provide a secure build for general corporate use.
 
-## MAC Profiles and Their Purpose
-
-MAC (Mandatory Access Control) profiles define different security postures for systems based on their intended use and security requirements. The Department of Defense (DoD) defines three primary MAC levels:
-
-1. **MAC 1 - Classified**: For systems handling classified information, requiring the highest level of security controls.
-2. **MAC 2 - Sensitive**: For systems handling sensitive but unclassified information, requiring moderate to high security controls.
-3. **MAC 3 - Public**: For systems handling publicly releasable information, requiring baseline security controls.
-
-Each MAC level is further divided into profiles based on the system's role (e.g., standalone, member server, domain controller). The MAC 3 - Public profile represents the baseline security posture for systems that handle publicly releasable information but still require protection against common threats and vulnerabilities.
-
 ## Script Development
 
 The remediation steps implemented in this script were generated using:
