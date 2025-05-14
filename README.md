@@ -92,6 +92,7 @@ The script addresses over 100 STIG findings across all severity categories:
 | V-253305 - V-253336 | Audit policies | Auditpol commands to enable required auditing |
 | V-253351 | Camera control | Registry setting to disable camera |
 | V-253445 | Legal notice | Registry settings for logon banner |
+| V-253498 | Impersonate a client after authentication | Secedit to configure user right assignment |
 | V-268317 | Disable Copilot | Registry setting to disable Windows Copilot |
 
 ### CAT3 (Medium) Findings
@@ -156,6 +157,29 @@ If you encounter issues during script execution:
 2. **Legal Notice Issues**: Verify the config.json file has the correct format for legal notice caption and text
 3. **Registry Errors**: Some settings may require a system restart before they take effect
 4. **Permission Denied**: Run PowerShell as Administrator with the command `Start-Process PowerShell -Verb RunAs`
+
+## Additional Scripts
+
+### User Rights Assignment Scripts
+
+The repository includes additional scripts to address specific user rights assignments:
+
+| Script Name | Purpose | STIG Finding |
+|-------------|---------|--------------|
+| Configure-ImpersonateClientRight.ps1 | Configures the "Impersonate a client after authentication" user right to be assigned only to Administrators, Service, Local Service, and Network Service | VV-253498 |
+| Test-ImpersonateClientRight.ps1 | Tests if the "Impersonate a client after authentication" user right is correctly configured | VV-253498 |
+
+To use these scripts:
+
+1. Run the configuration script as Administrator:
+```powershell
+.\Configure-ImpersonateClientRight.ps1
+```
+
+2. Verify the configuration with the test script:
+```powershell
+.\Test-ImpersonateClientRight.ps1
+```
 
 ## Additional Resources
 
