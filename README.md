@@ -193,6 +193,26 @@ To use these scripts:
 - For certificate installation, ensure you have the correct certificate files from authorized sources
 - The Secure Boot requirement must be configured in the system BIOS/UEFI
 
+## Results
+
+![STIG Compliance Score](images/Score.png "Windows 11 STIG Compliance Score")
+
+The hardening script achieves a final STIG compliance score of 97.24%, addressing the majority of security findings while maintaining system usability.
+
+## Next Steps
+
+![Next Steps](images/NextSteps.png "Required Next Steps")
+
+After running the hardening script, the following manual steps are required to achieve full compliance:
+
+1. **Install DoD Certificates**:
+   - Download and install the required DoD certificates from authorized sources
+   - Import the certificates into the appropriate certificate stores
+
+2. **Disable Microsoft Copilot**:
+   - While the script attempts to disable Copilot via registry settings, additional steps may be required
+   - Consider using Group Policy or additional registry modifications if Copilot remains active
+
 ## Contributors
 Jesse Bacon  
 Amazon Q  
